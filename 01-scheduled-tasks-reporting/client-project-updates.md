@@ -42,7 +42,7 @@ The owner judges it on two things: notes must be neat and understandable, and th
 - Live skill copy: `C:\Users\<user>\.claude\skills\client-project-updates\` (SKILL.md, `scripts\cpu.py`, `scripts\ghl.py`, `config.json`, `references\`).
 - State and ledger: `D:\Project\Client & Agency (Pivot)\Pivot2Thrive & Content\Hlgp and pipeline setup\client-project-updates\state\` (override with env var `CPU_STATE_DIR`). Same folder tree holds `.env` (env var names `p2t_pit`, `p2t_location`, `hlgp_pit`, `hlgp_location`), `dist\client-project-updates.skill` and the early `client-call-notes\` prototypes.
 - Cloud variant: repo `D:\Project\Client & Agency (Pivot)\Blogs\p2t-hlgp-automation` (private remote), skill copy under `.claude\skills\client-project-updates\`, prompt `routines\client-project-updates.md`, guide `docs\SETUP.md`, git branch `state-client-updates`.
-- Other copies to know: a Cowork plugin copy (`anthropic-skills:client-project-updates`, found stale on 27 Sep, still said "never move stages") and a synced copy dated 4 Oct with older content. Follow the `C:\Users\<user>\.claude\skills\` copy. For the skill as a reusable asset see the [skills overview](../08-claude-skills/00-skills-overview.md).
+- Other copies to know: a Cowork plugin copy (`anthropic-skills:client-project-updates`, found stale on 27 Sep, still said "never move stages") and a synced copy dated 4 Oct with older content. Follow the `C:\Users\<user>\.claude\skills\` copy.
 - Slack channel: `#client-project-updates`, private and team-only.
 
 ## 2. Flow chart
@@ -177,7 +177,6 @@ Documented facts only:
   - Duplicates if both runners are ever live, or if the state folder is unreadable and the run is not stopped.
 
 ## 5. Related
-- Skill as a reusable asset: the [skills overview](../08-claude-skills/00-skills-overview.md)
 - Sales call report (shares the Slack channel, the `ghl.py` helper and the client ledger for its Projects tab): `sales-call-report-dashboard.md`
 - Cloud migration decision record: `../02-content-seo-newsletters/cloud-migration-oct-2026.md`
 - Pipeline copy between sub-accounts (11 Sep): `../03-ghl-crm-migrations/hlgp-to-p2t-pipeline-copy.md`

@@ -109,5 +109,4 @@ No measured outcome recorded. What exists: the skill, the example package, and a
 ## 5. Related
 - [HL Growth Brief HTML email builder](hl-growth-brief-email-builder.md) is the HLGP twin and shares the fill and validate scripts' approach.
 - [Voice note to branded newsletter](voice-note-to-branded-newsletter.md) produces a Markdown newsletter in the founder's voice for the same audience.
-- [Skill `newsletter-p2t`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Sources:** Main KB Part 2 section 11; Portfolio KB sections 18 and 27.

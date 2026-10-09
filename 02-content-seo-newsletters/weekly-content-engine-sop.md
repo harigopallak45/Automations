@@ -97,5 +97,4 @@ No measured outcome recorded. The source documents the skill (v2 Authority Build
 
 ## 5. Related
 - [Voice note to branded newsletter](voice-note-to-branded-newsletter.md) is the email-newsletter counterpart.
-- [Skill `weekly-content-engine-sop`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Sources:** Main KB Part 2 section 14; Portfolio KB section 18.

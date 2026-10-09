@@ -135,7 +135,7 @@ A 24 KB markdown specification with copy-ready subjects, preheaders and bodies, 
 - **Risks:** Unsupported advertising claims and refund terms (Australian Consumer Law); Spam Act compliance depends on the unsubscribe footer. Security and credential-hygiene findings for this project are tracked privately and are not published here.
 
 ## 5. Related
-- [GHL webhook automation](../09-integrations-operations/ghl-webhook-automation.md)
+- [GHL webhook automation](../08-integrations-operations/ghl-webhook-automation.md)
 - [BNI network value calculator and PDF factory](../05-excel-workflow-tools/bni-network-value-calculator-and-pdf-factory.md)
 - [GHL API contracts and quirks](ghl-api-contracts-and-quirks.md) (template and workflow limits)
 - Pivot GHL Hub (`editor`) holds a BNI quiz workflow screenshot: see Part 5 section 8 of the main KB.

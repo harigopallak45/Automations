@@ -158,6 +158,5 @@ A custom-object model (company, job) with three associations, plus a de-duplicat
 - [Wasteman ServiceM8 to GHL migration](wasteman-servicem8-ghl-migration.md) (second run of this engine, with scope filters and an audit script)
 - [ServiceM8 to GHL two-way sync blueprint](servicem8-ghl-two-way-sync-blueprint.md) (design only; this engine is one-way)
 - [GHL API contracts and quirks](ghl-api-contracts-and-quirks.md)
-- [Skill `servicem8-ghl-migration`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Portfolio KB note:** section 14 describes the same framework as extract, schema, transform, load, deduplicate, map IDs, verify, repair, report, calls it "ServiceM8 to GHL integration" that may "move or synchronize", and says it was used for Tint and the Wasteman real-estate master sheet. The main KB (read from real files) shows a one-way migration only; any bidirectional sync needs explicit field ownership, conflict, deletion, loop and retry rules and is not built (see the sync blueprint).
 - **Sources:** Main KB Part 3 section 1; Part 8 skill entry `servicem8-ghl-migration` (lines 4758-4768); Portfolio KB section 14.

@@ -184,7 +184,7 @@ No measured business outcome recorded. Documented facts:
   - Custom Webhook may be a premium per-execution GHL action.
 
 ## 5. Related
-- [GHL forms to Sheets sync](../09-integrations-operations/ghl-forms-to-sheets-sync.md): the generic form-to-spreadsheet pattern (portfolio KB section 12).
+- [GHL forms to Sheets sync](../08-integrations-operations/ghl-forms-to-sheets-sync.md): the generic form-to-spreadsheet pattern (portfolio KB section 12).
 - [GHL API contracts and quirks](../03-ghl-crm-migrations/ghl-api-contracts-and-quirks.md): GHL platform quirks relevant to custom fields, webhooks and contact overwrites.
 - [n8n hosting templates](n8n-hosting-templates.md): reverse-proxy templates for a self-hosted n8n, the runtime variant A was designed for.
 - Other timesheet code that belongs to other slices (names only): `D:\Project\Apps & Fullstack\taskmanager\timesheet_export.php`, `D:\Project\<owner>\Stack&code\pm-tool\src\services\timesheetExportService.js` and `timesheetPdfService.js`.

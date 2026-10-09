@@ -122,8 +122,6 @@ Two skills. The prompt builder converts each page into a descriptive prompt (Fai
 - **Risks:** The AI can invent contact details or links if a prompt relies on shorthand; pasting a prompt into the wrong page of a funnel can duplicate global sections.
 
 ## 5. Related
-- [Skill `ghl-ai-prompt-builder`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
-- [Skill `search-for-ghl`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - [Pool Safe AU blog publish scripts](../02-content-seo-newsletters/poolsafe-au-blog-publish-scripts.md) (same client, blog side)
 - [GHL builder and Apex injector](ghl-builder-apex-injector.md) (the alternative of pushing HTML straight into the page builder)
 - [High-Ticket Sales Accelerator funnel pages](high-ticket-sales-accelerator-funnel-pages.md)

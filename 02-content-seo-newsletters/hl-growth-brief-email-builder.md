@@ -101,5 +101,4 @@ No measured outcome recorded. What exists: the skill, its two scripts and the go
 ## 5. Related
 - [HLGP weekly newsletter drafter](hlgp-weekly-newsletter-drafter.md) produces the Markdown that is pasted into this builder.
 - [P2T weekly newsletter builder](p2t-weekly-newsletter-builder.md) is the same pattern for Pivot 2 Thrive.
-- [Skill `newsletter-hlgp`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Sources:** Main KB Part 2 section 10; Portfolio KB sections 18 and 27.

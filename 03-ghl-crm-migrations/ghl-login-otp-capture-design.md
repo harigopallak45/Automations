@@ -99,6 +99,6 @@ No measured outcome recorded. The routine was never created and no test message 
 - **Risks:** Posting second-factor codes to Slack weakens the intent of 2FA if the channel membership grows or messages are retained; the routine would run only while a desktop is open, so it is not a dependable login path; alternatives such as individual accounts or a managed shared-login arrangement are worth weighing (inferred).
 
 ## 5. Related
-- [Slack team notifications](../09-integrations-operations/slack-team-notifications.md)
+- [Slack team notifications](../08-integrations-operations/slack-team-notifications.md)
 - [GHL API contracts and quirks](ghl-api-contracts-and-quirks.md)
 - **Sources:** Main KB Part 3 section 11; Portfolio KB section 20; one planning transcript.

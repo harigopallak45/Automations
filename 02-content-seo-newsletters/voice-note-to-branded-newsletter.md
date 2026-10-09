@@ -95,5 +95,4 @@ No measured outcome recorded. The documented result is the working skill at prom
 ## 5. Related
 - [P2T weekly newsletter builder](p2t-weekly-newsletter-builder.md) turns finished copy into the branded P2T HTML.
 - [Weekly Content Engine SOP](weekly-content-engine-sop.md) is the LinkedIn-side weekly content process.
-- [Skill `voice-to-branded-newsletter`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Sources:** Main KB Part 2 section 12, overview rule 15 and open item 10; Portfolio KB section 18.

@@ -110,6 +110,5 @@ Scores and findings are client-confidential and are not published here. The comp
 - **Risks:** The reports contain client-confidential findings and dollar estimates, so strip or anonymise before any portfolio use; PITs are static and must be rotated; UI review can change account state, so tell the client.
 
 ## 5. Related
-- [Skill `ghl-account-audit`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - [GHL API contracts and quirks](ghl-api-contracts-and-quirks.md) (PIT, rate limit and workflow-endpoint limits)
 - **Sources:** Main KB Part 3 section 12; Part 8 skill entry `ghl-account-audit`; Portfolio KB section 20; sessions "Setup GHL account audit skill environment" and "GHL account audit".

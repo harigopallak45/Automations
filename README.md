@@ -1,6 +1,6 @@
 # Automation Portfolio: Project Files
 
-124 individual project files built from two internal knowledge bases of automation work (Pivot 2 Thrive, HL Growth Partner and Stack&Code). Each file has a **description**, a **Mermaid flow chart** and a **case study**, in the same layout (see [_TEMPLATE.md](_TEMPLATE.md)).
+113 individual project files built from two internal knowledge bases of automation work (Pivot 2 Thrive, HL Growth Partner and Stack&Code). Each file has a **description**, a **Mermaid flow chart** and a **case study**, in the same layout (see [_TEMPLATE.md](_TEMPLATE.md)).
 
 ## How the files are organised
 
@@ -23,12 +23,12 @@
 | Personal tool | A utility for the owner's own use |
 | Reference | Documentation, patterns or a census rather than a running system |
 
-Counts: On demand 62, Reference 18, Personal tool 18, Live 12, Legacy or retired 8, Designed, not built 6.
+Counts: On demand 53, Reference 17, Personal tool 17, Live 12, Legacy or retired 8, Designed, not built 6.
 
 ## Sources and how to read the evidence
 
 - **Main KB** (an internal knowledge base, not part of this repository): built from real files and session transcripts, snapshot 9 Oct 2026. It is the primary source. Where it and the portfolio KB disagree, the files follow the main KB and say so.
-- **Portfolio KB** (also not part of this repository): derived from ChatGPT conversations. Its content is labelled "(portfolio KB)" wherever it was folded in. Section 09 holds the workstreams that exist only there.
+- **Portfolio KB** (also not part of this repository): derived from ChatGPT conversations. Its content is labelled "(portfolio KB)" wherever it was folded in. Section 08 holds the workstreams that exist only there.
 - **No invented results.** Outcomes list only what the sources document. Where nothing was measured, the file says "No measured outcome recorded." Markers `(inferred)` and `(not found)` are carried over from the KB.
 - **Public-safe edition.** This version has been redacted for publication: no secrets, no credential locations, no live admin or back-office URLs, no unfixed-vulnerability details, and no client audit findings. Where a project had such findings, the file says only that they are tracked privately. Environment-variable names appear, but never values.
 - **Evidence-based, not marketing.** Project status and outcomes reflect what the sources documented as of 9 Oct 2026, including unfinished and design-only work.
@@ -197,38 +197,20 @@ Desktop utilities, the HeyGen video pipeline, logo kits, cloud scripts and the c
 | [System Dashboard Pro, AutoBoost and server AutoBoost](07-personal-tools-media-infra/system-dashboard-pro-and-autoboost.md) | Personal tool | Three related system utilities: a Tk monitoring dashboard, a silent Windows RAM and CPU booster, and a Linux port of that booster deployed to the owner's servers. |
 | [Zaffarology video pipeline (`zaff vid`): HeyGen avatar, ffmpeg branding, Drive upload](07-personal-tools-media-infra/zaffarology-video-pipeline-zaff-vid.md) | On demand | A Node.js pipeline that renders a HeyGen AI avatar reading written scripts, brands the footage locally with ffmpeg (captions, logo, website text, end card) and optionally uploads the finished vertical videos to Google Drive,... |
 
-## 8. Custom Claude skills
-
-Reusable playbooks. Skills that already have a project file are linked from the overview.
-
-| Project | Status | Summary |
-|---|---|---|
-| [Custom Claude skills: overview and index](08-claude-skills/00-skills-overview.md) | Reference | An index of the owner's hand-made Claude skills (reusable process playbooks), where the four drifted copies live, which skills have their own project file, and the risks to watch. |
-| [clone-blueprint (12-field AI clone identity card skill)](08-claude-skills/clone-blueprint.md) | On demand | A Claude skill that builds, saves and loads a 12-field "Clone Blueprint" identity card for a personal brand or business, so all AI content creation starts from the person's own niche, offer, tone and story. |
-| [markitdown-converter (any file or URL to Markdown skill)](08-claude-skills/markitdown-converter.md) | On demand | A Claude skill that converts PDF, Word, PowerPoint, Excel, HTML, data files, images, audio, EPUB, email, ZIP and YouTube URLs into clean Markdown using Microsoft markitdown, singly or in batches. |
-| [p2t-sop-writer (SOP detection and writing skill)](08-claude-skills/p2t-sop-writer.md) | On demand | A Claude skill that detects repeatable tasks from calls, Slack and GHL patterns, writes crisp table-format SOPs, and appends them to the master P2T SOP Playbook workbook, with an optional white-label client version. |
-| [pivot2thrive-funnel-economics (paid-ads funnel diagnostic skill)](08-claude-skills/pivot2thrive-funnel-economics.md) | On demand | A Claude skill that finds where paid-acquisition spend leaks across an impressions-to-customers funnel, ranks the highest-leverage fix and issues a scale or no-scale verdict, as a written report, an interactive calculator or a... |
-| [priya-business-advisor (strategy advisor persona skill, high level only)](08-claude-skills/priya-business-advisor.md) | Personal tool | A Claude skill that gives the business owner a consistent senior-advisor voice for strategy, pricing, operations, finance and risk questions, so the business context does not need re-explaining each time. This file describes... |
-| [project-scope-tracker (call and proposal to client scope tracker skill)](08-claude-skills/project-scope-tracker.md) | On demand | A Claude skill that turns a client call transcript plus the agreed proposal into a client-facing scope and a Google Sheet project tracker, with paste-ready Slack messages for the project manager. It exists only in the synced... |
-| [sales-engine (daily outbound sales ritual skill)](08-claude-skills/sales-engine.md) | On demand | A Claude skill that runs the owner's 45-60 minute daily sales ritual: score leads, draft multi-channel reach-outs against daily quotas, track follow-ups, and pitch paid speaking gigs. |
-| [seo-os (SEO Operating System skill)](08-claude-skills/seo-os.md) | On demand | A Claude skill that runs a repeatable six-phase SEO framework for any niche, city or client, built from the HL Growth Partner reference project and invoked only by name. |
-| [transcript-to-scope-sop (call transcript to Idea Brief, Scope of Work and SOPs)](08-claude-skills/transcript-to-scope-sop.md) | On demand | A Claude skill that turns any call transcript into three linked, evidence-backed documents: a Project Idea Brief, a defensible Scope of Work and delivery SOPs, separating what was committed from what was merely floated. |
-| [website-audit (scripted four-lens website audit skill)](08-claude-skills/website-audit.md) | On demand | A Claude skill that crawls a live website with bundled Python scripts and produces an evidence-based, scored, page-by-page audit through four lenses: developer, QA tester, SEO specialist and business owner. |
-
-## 9. Integrations and operations (portfolio KB only)
+## 8. Integrations and operations (portfolio KB only)
 
 Workstreams that appear only in the ChatGPT-derived portfolio KB. Evidence is thinner, and each file says what is still undocumented.
 
 | Project | Status | Summary |
 |---|---|---|
-| [ClickUp, Slack and Clockify integration](09-integrations-operations/clickup-slack-clockify-integration.md) | Reference | Connects ClickUp task events to task-status handling, Clockify time-tracking records and Slack team notifications, as described in the portfolio knowledge base. |
-| [Clockify project and task matching](09-integrations-operations/clockify-project-task-matching.md) | Reference | Matches Clockify projects and tasks to the correct spreadsheet records so time tracking and operational reporting line up. |
-| [Cloudflare Worker for Spotify RSS](09-integrations-operations/cloudflare-worker-spotify-rss.md) | Reference | A Cloudflare Worker script that processes Spotify RSS-related content; the portfolio knowledge base confirms it existed but records almost nothing else. |
-| [Cron-based website and application monitoring](09-integrations-operations/cron-website-application-monitoring.md) | Reference | Scheduled checks that detect website and application issues; the Café Grato order monitor is the one concrete, documented instance. |
-| [GHL custom-field tracking application](09-integrations-operations/ghl-custom-field-tracking-app.md) | Reference | A custom application that tracks GoHighLevel custom-field data and supports PDF-generation workflows, as described in the portfolio knowledge base. |
-| [GHL forms to Excel and Google Sheets sync](09-integrations-operations/ghl-forms-to-sheets-sync.md) | Reference | Transfers GoHighLevel form and survey submissions into spreadsheet rows; the main KB documents one concrete design of this pattern in the Scope Stainless timesheet. |
-| [GHL webhook automation](09-integrations-operations/ghl-webhook-automation.md) | Reference | A reusable pattern for using GoHighLevel events and webhooks to trigger external workflow logic such as record syncs, Slack alerts and PDF builds. |
-| [Slack team notifications](09-integrations-operations/slack-team-notifications.md) | Reference | Automatically notifies the team in Slack when workflow events occur, such as task status updates, GHL webhook events and content approval requests. |
+| [ClickUp, Slack and Clockify integration](08-integrations-operations/clickup-slack-clockify-integration.md) | Reference | Connects ClickUp task events to task-status handling, Clockify time-tracking records and Slack team notifications, as described in the portfolio knowledge base. |
+| [Clockify project and task matching](08-integrations-operations/clockify-project-task-matching.md) | Reference | Matches Clockify projects and tasks to the correct spreadsheet records so time tracking and operational reporting line up. |
+| [Cloudflare Worker for Spotify RSS](08-integrations-operations/cloudflare-worker-spotify-rss.md) | Reference | A Cloudflare Worker script that processes Spotify RSS-related content; the portfolio knowledge base confirms it existed but records almost nothing else. |
+| [Cron-based website and application monitoring](08-integrations-operations/cron-website-application-monitoring.md) | Reference | Scheduled checks that detect website and application issues; the Café Grato order monitor is the one concrete, documented instance. |
+| [GHL custom-field tracking application](08-integrations-operations/ghl-custom-field-tracking-app.md) | Reference | A custom application that tracks GoHighLevel custom-field data and supports PDF-generation workflows, as described in the portfolio knowledge base. |
+| [GHL forms to Excel and Google Sheets sync](08-integrations-operations/ghl-forms-to-sheets-sync.md) | Reference | Transfers GoHighLevel form and survey submissions into spreadsheet rows; the main KB documents one concrete design of this pattern in the Scope Stainless timesheet. |
+| [GHL webhook automation](08-integrations-operations/ghl-webhook-automation.md) | Reference | A reusable pattern for using GoHighLevel events and webhooks to trigger external workflow logic such as record syncs, Slack alerts and PDF builds. |
+| [Slack team notifications](08-integrations-operations/slack-team-notifications.md) | Reference | Automatically notifies the team in Slack when workflow events occur, such as task status updates, GHL webhook events and content approval requests. |
 
 ---
 

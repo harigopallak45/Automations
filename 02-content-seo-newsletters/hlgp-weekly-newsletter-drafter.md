@@ -97,5 +97,4 @@ No measured outcome recorded. The documented result is the skill itself and its 
 
 ## 5. Related
 - [HL Growth Brief HTML email builder](hl-growth-brief-email-builder.md) is the next stage (Markdown to finished HTML).
-- [Skill `hlgp-weekly-newsletter`, listed in the skills overview](../08-claude-skills/00-skills-overview.md)
 - **Sources:** Main KB Part 2 section 9 and the map in section 0; Part 2 section 20 (newsletter sending is manual); Portfolio KB section 18.

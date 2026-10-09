@@ -152,5 +152,5 @@ No measured outcome recorded for the reference itself. Documented facts: 18 beha
 - [GHL builder and Apex injector](ghl-builder-apex-injector.md) (section 15)
 - [Client Project Updates](../01-scheduled-tasks-reporting/client-project-updates.md) (401 queue and flush)
 - [GHL blog API and shared blog tooling](../02-content-seo-newsletters/ghl-blog-api-and-shared-blog-tooling.md), [Blog backlog repair](../02-content-seo-newsletters/blog-backlog-repair.md) and [Client blog engine for Summit Air and Solar Flex](../02-content-seo-newsletters/client-blog-engine-summit-air-solar-flex.md) (blog quirks)
-- [GHL webhook automation](../09-integrations-operations/ghl-webhook-automation.md)
+- [GHL webhook automation](../08-integrations-operations/ghl-webhook-automation.md)
 - **Sources:** Main KB Part 3 section 16; Part 0 sections 3 and 6; Part 1 (client-updates queue episode); Part 2 (blog notes); Portfolio KB sections 31-32 (general API and credential practice: timeouts, rate-limit handling, minimum scopes, rotation).

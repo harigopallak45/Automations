@@ -96,5 +96,5 @@ Documented facts: scripts run on 15 Sep 2026; 416 sitemap URLs checked, 415 live
 ## 5. Related
 - [31-page AI and industry landing-page blueprint](landing-page-blueprint-31-pages.md): any new slug must be added to the sitemap and checked with these tools.
 - [P2T daily blog engine](p2t-daily-blog-engine.md): hard-codes the list of live pages.
-- [Skill file for seo-os](../08-claude-skills/seo-os.md) and [website-audit](../08-claude-skills/website-audit.md): the heavier SEO frameworks; these scripts are the lightweight GHL-specific version (main KB Part 2 section 16).
+- The seo-os and website-audit skills are the heavier SEO frameworks; these scripts are the lightweight GHL-specific version (main KB Part 2 section 16).
 - **Sources:** Main KB Part 2 section 15, section 16 (relation to the SEO skills) and section 19 (related website-rating session).
